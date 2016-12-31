@@ -24,7 +24,7 @@ class _DndDemo extends Component {
     super(props);
 
     this.board = new Board();
-    mock(this.board);
+    // mock(this.board);
 
     this.state = {
       board: this.board.getBoard()
